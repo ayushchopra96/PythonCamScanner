@@ -61,20 +61,20 @@ th3 = cv2.adaptiveThreshold(dst,255,cv2.ADAPTIVE_THRESH_GAUSSIAN_C,\
             cv2.THRESH_BINARY,11,2)
 ret2,th4 = cv2.threshold(dst,0,255,cv2.THRESH_BINARY+cv2.THRESH_OTSU)
 
-plt.figure(0)
-plt.imshow(orig)
+#plt.figure(0)
+#plt.imshow(orig)
 
-plt.figure(1)
-plt.imshow(gray)
+#plt.figure(1)
+#plt.imshow(gray)
 
-plt.figure(1)
-plt.imshow(orig_edged)
+#plt.figure(1)
+#plt.imshow(orig_edged)
 
-plt.figure(1)
-plt.imshow(th3)
+#plt.figure(1)
+#plt.imshow(th3)
 
-plt.figure(1)
-plt.imshow(dst)
+#plt.figure(1)
+#plt.imshow(dst)
 
 
 cv2.imshow("Original.jpg", orig)
